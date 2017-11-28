@@ -1,57 +1,22 @@
-### Step 1
+![roarix] (https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/614652/1160/772/m1/fpnw/wm0/tigerlogo-.jpg?1440058676&s=fcad346e57d5cf5d4b0b87038623ec50)
+
+## Roarix
+
+This is a simple project to learn Python Flask. Roarix is a cryptocurrency.
 
 
-### install python requirements
-Create the requirements.txt with the following packages:
+### Getting Started
 
-```
-Flask==0.12.2
-requests==2.18.4
-```
+This repo is based on the famous article from hackernoon article: Learn Blockchains by building one. Each Step has a new branch.
 
-```pip2 install -r requirements.txt```
+```git clone git@github.com:xhad/roarix```
 
-### create the blockchain daemon
+```git checkout step-1```
+``` git pull```
 
-```touch roarixd.py```
-
-Or just cretae the the file, your-blockchain-named.py.
-
-### create the basic class structure
-
-- create a class, and call it your blockchain name. 
-
-Your class will have the following arrays:
-
-- self.chain
-- self.transactions
-
-self.chain is an array that will be the blockchain.
-
-self.transaction is an araay that will hold current transactions.
+For each nex Step, checkout and pull each successive branch. To skip to the finished branch, pull the ```complete``` branch.
 
 
-### Example Block data
-
-A blockchain is a series of blocks, where each block contains an array of currency transactions. Each block is connected to the previous block with a hash. This connects every block into a blockchain where each is connected one to the next, via hashes from the previous block.
-
-```json
-
-block = {
-    'index': 1,
-    'timestamp': 1506057125.900785,
-    'transactions': [
-        {
-            'sender': "8527147fe1f5426f9dd545de4b27ee00",
-            'recipient': "a77f5cdfa2934df3954a5c7c7da5df1f",
-            'amount': 5,
-        }
-    ],
-    'proof': 324984774000,
-    'previous_hash': "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824"
-}
-```
-
-
+MIT
 
 
