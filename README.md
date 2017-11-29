@@ -15,7 +15,7 @@ requests==2.18.4
 
 ```touch roarixd.py```
 
-Or just cretae the the file, your-blockchain-named.py.
+Or just create the the file, your-blockchain-named.py.
 
 ### create the basic class structure
 
@@ -28,7 +28,7 @@ Your class will have the following arrays:
 
 self.chain is an array that will be the blockchain.
 
-self.transaction is an araay that will hold current transactions.
+self.transaction is an array that will hold current transactions.
 
 
 ### Example Block data
